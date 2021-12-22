@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">TYPES OF INPUT ELEMENTS</h1>
+    <form>
+        <div>       
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your Name">
+        </div> <br>
+        <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        </div><br>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" id="Password" placeholder="Enter your Password">
+        </div><br>
+        <div>
+            <label for="Phone">PhoneNumber</label>
+            <input type="tel" id="Phone" placeholder="Enter your phone Number">
+        </div><br>
+        <div>
+            <caption>Martial status</caption>
+            <input type="radio" value="Single" id="Single" name="Martial status">
+            <label for="Single">Single</label>
+            <input type="radio" value="Married" name="Martial status">
+            <label for="Married" >Married</label>
+        </div><br>
+        <div>
+            <label for="image">Image</label><br>
+            <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeZ128Mna0r1AbURP78BbbebWADjDSzyDvsw&usqp=CAU" id="image" height="100" width="100" >
+        </div><br>
+        <div>
+          <p>Favorate Food</p>
+          <input type="checkbox" id="food1" name="food1" value="Fried Rice">
+          <label for="food1">Fried Rice</label><br>
+          <input type="checkbox" id="food2" name="food2" value="pizza">
+          <label for="food2">pizza</label><br>
+          <input type="checkbox" id="food3" name="food3" value="shawarma">
+          <label for="food3">shawarma</label>
+        </div><br>
+        <div>
+            <label for="fav-color">Fav-color</label>
+            <input type="color" name="fav-color" id="fav-color">
+        </div><br>
+        <div>
+            <label for="birthday">DOB</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="Bday month">Birthday Month</label>
+            <input type="month" id="Bday month" placeholder="Enter your bday Month">
+        </div><br>
+        <div>
+            <label for="files">MyFiles</label>
+            <input type="file" name="file" id="files"> 
+        </div><br>
+        <div>
+            <input type="hidden" id="MyRegister No" name="Register No" value="17Td0829">
+        </div><br>
+        <div>
+            <label for="langknown">Languages Known</label>
+            <input type="number" min="0" max="1000" id="langknown" placeholder="langNum">
+        </div><br>
+        <div>
+        <label for="volume" >volume(Music)</label>
+        <input id="volume" type="range" min="0" max="100">
+        </div><br>
+        <div>
+            <label for="search" >Search</label>
+            <input id="search" type="search" placeholder="search you want">
+        </div><br>
+        <div>
+                <label for="time" >Time update with(AM/PM)</label>
+                <input id="time" type="time" >
+        </div><br>
+        <div>
+                    <label for="url" >website url</label>
+                    <input id="url" type="url" placeholder="enter the proper url" >
+        </div><br>
+        <div>
+            <label for="week" >week and year</label>
+            <input id="week" type="week" >
+        </div><br>
+        <div>
+            <label for="changetime" >Change time</label>
+            <input id="changetime" type="datetime-local" >
+        </div><br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </div><br>
+        <div>
+            <input type="button" onclick="alert('Welcome Again !!Thankyou for visiting!!')" value="click Me!">
+        </div>
+
+    </form>
+</body>
+</html>

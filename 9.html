@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">HTML FORM ELEMENTS</h1>
+    <form>
+      <div>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" placeholder="your name">
+      </div><br>
+      <div>
+        <label for="Fruit">Choose Fruit</label><br>
+        <select if="Fruit" name="Fruits" size="3">
+          <option value="Apple">Apple</option>
+          <option value="Banana">Banana</option>
+          <option value="Grapes">Grapes</option>
+          <option value="Orange">Orange</option>
+          <option value="Mango">Mango</option>
+          <option value="Jackfruit">Jackfruit</option>
+          <option value="Dragon Fruit">Dragon fruit</option>
+        </select>
+      </div><br>
+      <div>
+        <label for="Fruit">Choose Fruit</label><br>
+        <select id="Fruit" name="Fruits" size="3" multiple>
+          <option value="Apple">Apple</option>
+          <option value="Banana">Banana</option>
+          <option value="Grapes">Grapes</option>
+          <option value="Orange">Orange</option>
+          <option value="Mango">Mango</option>
+          <option value="Jackfruit">Jackfruit</option>
+          <option value="Dragon Fruit">Dragon fruit</option>
+          <p>Hold the ctrl to select mutiple option!!</p>
+        </select>
+      </div><br>
+      <div>
+      <label for="sms" >Message</label><br>
+      <textarea id="sms" name="" placeholder="enter your query" row=10 cols="20"></textarea>
+    </div><br>
+    <div>
+      <button type="button" onclick="alert('Hello Friends!!! visit again')">Click Me!!</button>
+    </div><br>
+    <div>
+      <fieldset>
+        <legend style="text-align: center;">Personal Profile</legend>
+        <label for="name">Good Name:</label><br>
+        <input id="name" placeholder="call u as?" type="text"><br>
+        <label for="DOB">Give rises At:</label><br>
+        <input id="DOB" type="date">
+        <br><br>
+        <input type="submit" value="Hit ME!">
+      </fieldset>
+    </div><br>
+    <div>
+    <label for="browsers">Browsers</label><br>
+    <input list="browsers">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="FireFox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+  </div><br>
+    <div>
+      <h3>FOOD ORDER</h3>
+      <label for="foods">Lunch</label>
+      <select id="foods" name="foods">
+        <optgroup label="Starter">
+          <option value="Plain Soup">Plain Soup</option>
+          <option value="corn soup">Corn Soup</option>
+          <option value="Mushroom soup">Mushroom Soup</option>
+        </optgroup>
+        <optgroup label="Main Course">
+          <option value="FullMeals">Full Meals</option>
+          <option value="FriedRice">FriedRice</option>
+          <option value="GobiManjuriyan">Gobi Manjuriyan</option>
+        </optgroup>
+        <optgroup label="Desert">
+          <option value="Ice-Cream">Ice-Cream</option>
+          <option value="Falloda">Falloda</option>
+          <option value="sharjaa">Sharjaa</option>
+          <option value="MilkShake">MilkShake</option>
+        </optgroup>
+      </select>
+    </div><br>
+    <div>
+      <form>
+      <p>Output</p>
+      oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+      <input type="range" id="a" value="50">+<input type="number" id="b" value="25">
+      =<output name="x" for="a b"></output>
+    </form>
+     </div><br>
+    </form>
+  </body>
+  </html>
